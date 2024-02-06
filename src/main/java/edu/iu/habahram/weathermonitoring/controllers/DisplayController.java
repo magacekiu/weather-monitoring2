@@ -14,6 +14,7 @@ public class DisplayController {
     private CurrentConditionDisplay currentConditionDisplay;
     private StatisticsDisplay statisticsDisplay;
 
+
     public DisplayController(CurrentConditionDisplay currentConditionDisplay, StatisticsDisplay statisticsDisplay) {
         this.currentConditionDisplay = currentConditionDisplay;
         this.statisticsDisplay = statisticsDisplay;
